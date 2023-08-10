@@ -1,0 +1,200 @@
+
+
+/* --------------------------------------------------------------*/
+
+:root {
+  --color1:  #001f32;
+  --color2 : #00415f;
+  --color3: #007096;
+  --color4: #00abd5;
+  --color5: #0bc7d1;
+  --color6: rgba(255, 99, 133, 0.747);
+  --color7: rgba(190, 22, 58, 0.822);
+ 
+}
+
+
+
+#root{
+  background-color: var(--color1);
+  color: white;
+}
+
+body{
+  background-color: var(--color1);
+}
+
+header{
+  margin-bottom: 1.5em;
+  background-color: var(--color4);
+  padding: 1em;
+}
+
+#inicio{
+  background-color: transparent;
+}
+header div>a{
+  color: white;
+  border-radius: .5rem;
+  background-color: var(--color3);
+  text-align: center;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: var(--color5);
+ 
+}
+section > section{
+  margin-bottom: 1em;
+}
+
+article{
+  background-color: var(--color2);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 1em;
+}
+
+.porcentaje{
+  text-align: center;
+}
+
+.error404{
+  background-color: rgba(255, 0, 0, 0.555);
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.linkM{
+  text-align: center;
+  padding-top: 1em;
+  color: white;
+}
+
+input[type="button"]{
+  background-color: var(--color6);
+  transition: 1s;
+  color: black;
+  border-color: black;
+ 
+}
+input[type="button"]:hover{
+  background-color: var(--color7);
+}
+
+h1, h2{
+  text-align: center;
+}
+
+input, select, label {
+  width: 100%;
+  display: block;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: .5em;
+}
+
+input:focus{
+  background-color: white;
+  color: black;
+}
+
+select:focus{
+  background-color: white;
+  color: black;
+}
+
+.datoscenso{
+  text-align: center;
+  
+}
+.datoscenso > p{
+  font-size: large;
+}
+
+
+table>thead>tr>th {
+
+  border-bottom: 2px solid var(--color3);
+  color:#00abd5;
+  font-size: large;
+  text-align: center;
+
+}
+
+table>tbody>tr>td {
+
+  border-bottom: 2px solid var(--color3);
+  text-align: center;
+}
+table {
+
+  width: 100%;
+
+  border-collapse: separate;
+
+  border-spacing: 3px;
+
+}
+
+.graficoPers{
+  margin-bottom: 1em;
+}
+.cronometro > article{
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 0;
+  font-size: large;
+  
+}
+
+.padd{
+  padding-bottom: .5em;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
